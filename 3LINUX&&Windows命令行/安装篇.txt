@@ -1,0 +1,5 @@
+国产Ubuntu Kylin 在虚拟机中安装没有提示为root设置密码，原因是
+ubuntu从安全方面考虑，root账号的密码是随机的，默认你无法以root账号登录系统。
+只需要如下操作，即可
+sudo passwd root
+先输入当前用户密码，然后两次输入密码，root帐号就开启啦。
